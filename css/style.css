@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+li a.active,
+li a:hover {
+    background: #39A2DB;
+    transition: .5s;
+}
+
+li a.active {
+    transition: .5s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A2DBFA;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* Aumentar el margen derecho */
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    /* Aumentar el margen izquierdo */
+    margin-right: 30px;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.button_register {}
+
+.title_posts {
+    text-align: center;
+    font-size: 70px;
+}
+
+
+/* Banner */
+
+section.banner {
+    background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+    padding: 3rem 0;
+    background-image: url(/assets/fondo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.containerB {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.col2 {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: red;
+}
+
+
+/* Propositos */
+
+section.section_general {
+    background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+    padding: 3rem 0;
+}
+
+.container_general {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.propositos_col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propositos_col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+}
+
+.card.card_services {
+    background-color: #A2DBFA;
+}
+
+
+/* Services */
+
+.card p {
+    padding-bottom: 30px;
+    background-color: #A2DBFA;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Plans */
+
+.list_plans {
+    text-align: center;
+}
+
+.plan_buttons {
+    margin: 20px 70px;
+}
+
+.paragraph_nosotros {
+    text-align: justify;
+    font-weight: bold;
+    padding: 0 100px;
+    font-size: 17px;
+}
