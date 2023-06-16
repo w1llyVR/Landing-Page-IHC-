@@ -87,7 +87,7 @@ li a.active {
 section.banner {
     background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
     padding: 3rem 0;
-    background-image: url(images/fondo.png);
+    background-image: url(../images/fondo.png);
     background-size: cover;
     background-position: center;
 }
